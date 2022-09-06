@@ -7,9 +7,12 @@ for numeroEntero in range(0,151):
 for multiplosCinco in range(5,1001,5):
     print (multiplosCinco)
 
+#otra manera de hacerlo es 
+'''
 for multiplosCincoResto in range(5,1001):
     if multiplosCincoResto%5 ==0:
         print(multiplosCincoResto)
+'''
 
 #Contar, a la manera del Dojo: imprime números enteros del 1 al 100. Si es divisible por 5, imprime "Coding” en su lugar. Si es divisible por 10, imprime "Coding Dojo".
 for contarDojo in range(1,101):
